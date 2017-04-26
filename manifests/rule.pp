@@ -164,6 +164,8 @@ define logrotate::rule(
   $uncompresscmd   = 'undef'
   ) {
 
+  include logrotate
+
   #############################################################################
   # SANITY CHECK VALUES
 
